@@ -1,45 +1,41 @@
 {
-    "g":{"g":{"g":{"g":{"g":{
-        "g":{"temp": "9999999.15","humidity": "69"},"dt": "1499869800"
-    }}}}},
-    "coord": {
-        "lon": -8.61,
-        "lat": 41.15
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": "9999999.15",
-        "pressure": 1020,
-        "-humidity": "69",
-        "temp_min": 296.15,
-        "temp_max": 296.15
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 4.6,
-        "deg": 320
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1499869800,
-    "sys": {
-        "type": 1,
-        "id": 5959,
-        "message": 0.0022,
-        "country": "PT",
-        "sunrise": 1499836380,
-        "sunset": 1499890019
-    },
-    "id": 2735943,
-    "name": "Porto",
-    "cod": 200
+    "version":{
+            "id": "113a0b0s0i0mj0mi0",
+            "version_float": "11.3",
+            "version_int": "11",
+            "name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+            "security_update":"0",
+            "security_update":"0",
+            "important_update":"0",
+            "major_update":"0",
+            "minor_update":"0",
+            "beta":"0",
+            "alpha":"0",
+            "version_index":"113",
+            "info":"https://github.com/Mjz86/otaupdate",
+            "url":"https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+            "url_site":"raw.githubusercontent.com",
+            "url_resources":"/Mjz86/otaupdate/main/ota.json",
+            "url_HTTP":"https://",
+            "url_port":"443",
+            "url_secure":"1",
+            "change_log_url":""
+        },
+    "minimum_of_compatible_versions":{
+            "id": "0a0b0s0i0mj0mi0",
+            "version_float": "11.3",
+            "version_int": "11",
+            "name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+            "security_update":"0",
+            "security_update":"0",
+            "important_update":"0",
+            "major_update":"0",
+            "minor_update":"0",
+            "beta":"0",
+            "alpha":"0",
+            "version_index":"113",
+            "info":"https://github.com/Mjz86/otaupdate"
+            }
+    
+    
 }
