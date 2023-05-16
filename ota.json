@@ -1,48 +1,388 @@
 {
-    "bin_database":{
-        "esp32s3":{
-    "version":{
-            "id": "113a0b0s0i0mj0mi0",
-            "version_float": "11.3",
-            "version_int": "11",
-            "name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
-            "security_update":"0",
-            "security_update":"0",
-            "important_update":"0",
-            "major_update":"0",
-            "minor_update":"0",
-            "beta":"0",
-            "alpha":"0",
-            "version_index":"113",
-            "info":"https://github.com/Mjz86/otaupdate",
-            "url":"https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
-            "url_site":"raw.githubusercontent.com",
-            "url_resources":"/Mjz86/otaupdate/main/ota.json",
-            "url_HTTP":"https://",
-            "url_port":"443",
-            "url_secure":"1",
-            "change_log_url":""
-        },
-    "minimum_of_compatible_versions":{
-            "id": "0a0b0s0i0mj0mi0",
-            "version_float": "0",
-            "version_int": "0",
-            "name": "   ",
-            "security_update":"0",
-            "security_update":"0",
-            "important_update":"0",
-            "major_update":"0",
-            "minor_update":"0",
-            "beta":"0",
-            "alpha":"0",
-            "version_index":"0",
-            "info":"https://github.com/Mjz86/otaupdate"
-            },
-    "compatible_devices":{
-        "number":"3",
-       "name": ["s3"," "," "]
-    }
-        }
-    
-}
+	"bin_database": {
+		"esp": {
+			"esp32sx": {
+				"esp32s1": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				},
+				"esp32s2": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				},
+				"esp32s3": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				}
+			},
+			"esp8266": {
+				"esp8266": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				}
+			},
+			"esp32cx": {
+				"esp32c2": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				},
+				"esp32c3": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				},
+				"esp32c6": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				}
+			},
+			"esp32hx": {
+				"esp32h2": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				}
+
+			},
+			"esp32px": {
+
+				"esp32p4": {
+					"version": {
+						"id": "113a0b0s0i0mj0mi0",
+						"version_float": "11.3",
+						"version_int": "11",
+						"name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "113",
+						"info": "https://github.com/Mjz86/otaupdate",
+						"url": "https://raw.githubusercontent.com/Mjz86/otaupdate/main/ota.json",
+						"url_site": "raw.githubusercontent.com",
+						"url_resources": "/Mjz86/otaupdate/main/ota.json",
+						"url_HTTP": "https://",
+						"url_port": "443",
+						"url_secure": "1",
+						"change_log_url": ""
+					},
+					"minimum_of_compatible_versions": {
+						"id": "0a0b0s0i0mj0mi0",
+						"version_float": "0",
+						"version_int": "0",
+						"name": "   ",
+						"security_update": "0",
+						"important_update": "0",
+						"major_update": "0",
+						"minor_update": "0",
+						"beta": "0",
+						"alpha": "0",
+						"version_index": "0",
+						"info": "https://github.com/Mjz86/otaupdate"
+					},
+					"compatible_devices": {
+						"number": "3",
+						"name": ["s3", " ", " "]
+					}
+				}
+			}
+		}
+
+	}
 }
