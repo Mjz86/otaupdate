@@ -1,4 +1,6 @@
 {
+    "bin_database":{
+        "esp32s3":{
     "version":{
             "id": "113a0b0s0i0mj0mi0",
             "version_float": "11.3",
@@ -23,9 +25,9 @@
         },
     "minimum_of_compatible_versions":{
             "id": "0a0b0s0i0mj0mi0",
-            "version_float": "11.3",
-            "version_int": "11",
-            "name": "USBMSC_keymouse_led_simpleclijsonoled11_3",
+            "version_float": "0",
+            "version_int": "0",
+            "name": "   ",
             "security_update":"0",
             "security_update":"0",
             "important_update":"0",
@@ -33,9 +35,14 @@
             "minor_update":"0",
             "beta":"0",
             "alpha":"0",
-            "version_index":"113",
+            "version_index":"0",
             "info":"https://github.com/Mjz86/otaupdate"
-            }
+            },
+    "compatible_devices":{
+        "number":"3",
+       "name": ["s3"," "," "]
+    }
+        }
     
-    
+}
 }
