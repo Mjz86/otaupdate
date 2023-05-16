@@ -18,7 +18,7 @@
     "main": {
         "temp": "9999999.15",
         "pressure": 1020,
-        "humidity": "69",
+        "-humidity": "69",
         "temp_min": 296.15,
         "temp_max": 296.15
     },
