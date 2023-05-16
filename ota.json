@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": -8.61,
+        "lat": 41.15
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 999999999999999.15,
+        "pressure": 1020,
+        "humidity": 69,
+        "temp_min": 296.15,
+        "temp_max": 296.15
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.6,
+        "deg": 320
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1499869800,
+    "sys": {
+        "type": 1,
+        "id": 5959,
+        "message": 0.0022,
+        "country": "PT",
+        "sunrise": 1499836380,
+        "sunset": 1499890019
+    },
+    "id": 2735943,
+    "name": "Porto",
+    "cod": 200
+}
