@@ -3,4 +3,4 @@ for( i=0; i<10; i++ )
 {
   print( i );
 }
-print("goodbye  world from github \n");  
+print("\ngoodbye  world from github \n");  
