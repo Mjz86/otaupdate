@@ -1,0 +1,48 @@
+while (true)
+
+{
+print( "\n Hello World! from GitHub wrench  \n" );
+for( i=0; i<10; i++ )
+{
+  print( i );
+}
+
+  
+pinMode(2,3);
+digitalWrite(2,1);
+
+print( "Hello World! from wrench \n" ,file_open("/folder/wr.txt", "r" ,  " "  , 1 ,  "password" ),"\n");// big files make it crash 
+file_open("/folder/wr.txt", "w" ,  "input:Hello World! from wrench"  , 1 ,  "password" );
+my_string = "str";
+yrstr = "";
+yrstr = str::format("this is my str %s : %s \n",millis(0),my_string);
+print(yrstr);
+
+
+
+
+print( "\n ram file :  \n" ,file_openramfile(1546, "r" ,  " "   ),"\n");
+file_openramfile(1546, "w" ,  " ram file stuff "   );// big files make it crash 
+print( "\n ram file :  \n" ,file_openramfile(1546, "r" ,  " "   ),"\n");
+
+
+
+for( i=0; i<10; i++ )
+{
+  print( i );
+  sigmaDeltaWrite(2,0,312500,255-(i*20));
+delay(500);
+}
+print("\n");  
+
+print(millis());  
+delay(1000);
+pinMode(2,1);
+
+
+
+
+print("\ngoodbye  world from github \n");  
+
+
+}
