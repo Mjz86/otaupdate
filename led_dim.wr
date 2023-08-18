@@ -1,0 +1,19 @@
+for( i=0; i<10; i++ )
+{
+pinMode(2,3);
+digitalWrite(2,1);
+for( i=0; i<255; i++ )
+{
+ 
+  sigmaDeltaWrite(2,0,312500,255-(i));
+delay(4);
+}
+for( i=0; i<255; i++ )
+{
+ 
+  sigmaDeltaWrite(2,0,312500,i);
+delay(4);
+}
+pinMode(2,1);
+
+}
